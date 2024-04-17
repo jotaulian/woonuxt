@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   'graphql-client': {
     clients: {
       default: {
-        host: process.env.GQL_HOST || 'https://paracolorear.com.es//graphql',
+        host: process.env.GQL_HOST || 'https://paracolorear.com.es/graphql',
         corsOptions: { mode: 'cors', credentials: 'include' },
       },
     },
